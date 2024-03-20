@@ -45,7 +45,7 @@ _Code review is less about catching bugs and more about ensuring a collective ow
 
 ---
 
-#### Well, what benefits do we get from code reviews?
+### Well, what benefits do we get from code reviews?
 
 - Do I get my PR merged faster?
 - Are we catching bugs?
