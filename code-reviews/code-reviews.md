@@ -10,13 +10,13 @@ _Code review is less about catching bugs and more about ensuring a collective ow
 
 ## Agenda
 
-1. Background
-2. Benefits
-3. Challenges
-4. Tips for authors
-5. Tips for reviewers
-6. Discussion
-7. Reflection and Next Steps
+1. [Background](#background)
+2. [Benefits](#the-benefits)
+3. [Challenges](#challenges)
+4. [Tips for authors](#tips-for-authors)
+5. [Tips for reviewers](#tips-for-reviewers)
+6. [Discussion](#discussion)
+7. [Reflection and Next Steps](#reflection-and-next-steps)
 
 ---
 
