@@ -68,7 +68,7 @@ Yes... and more!
 
 ---
 
-Although general Code Reviews might not always become faster due to the time spent on them, I'd argue that the benefits outweigh the costs.
+Although general Code Reviews might not always become faster due to the time spent on them, I'd argue atleast for the large changes will be more efficient and less error-prone.
 
 ---
 
