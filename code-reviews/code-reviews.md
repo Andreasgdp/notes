@@ -91,7 +91,7 @@ Although general Code Reviews might not always become faster due to the time spe
 
 How to write PRs that are easier to review
 
-![bg right:65%](./background.webp)
+![bg right:65%](./authors.webp)
 
 ---
 
@@ -107,7 +107,7 @@ How to write PRs that are easier to review
 
 - **Break down your changes into smaller, more digestible PRs.**
 - **Separation of concerns in PRs**
-  - Minor refactors and bugfixes can be in the same PR - but separate commits.
+  - Minor relates refactors and bugfixes can be in the same PR - but separate commits.
   - Separate PRs for new features and bugfixes and refactorings that are not directly related.
 - **Don't be afraid to merge fragments of work - Feature toggle**
   - Long-lived branches can be a pain to merge and review - Avoid them.
@@ -203,7 +203,7 @@ The component is displayed at the bottom of the cart list.
 
 How to give good feedback
 
-![bg right:65%](./background.webp)
+![bg right:65%](./review.webp)
 
 ---
 
@@ -244,6 +244,8 @@ This is so we can use that for understanding the change in the future.
 
 ## Discussion
 
+![bg right:65%](./discussion.webp)
+
 ---
 
 ## Discussion
@@ -254,13 +256,19 @@ This is so we can use that for understanding the change in the future.
 
 ## Discussion
 
-- **What can we do to make it easier for you to review PRs more often?**
+- **What can we do to make it easier review PRs?**
 
 ---
 
 ## Discussion
 
 - **Should we worry less about unfinished features on main and save feature-toggling for staging/test branching?**
+
+---
+
+## Discussion
+
+- **How long would you expect from you make a PR to you have reviewers?**
 
 ---
 
@@ -282,8 +290,24 @@ This is so we can use that for understanding the change in the future.
 
 ---
 
-## Reflection and Next Steps
+## Reflection
 
-...
+- **How does code review fit into your work day?**
 
-![bg right:65%](./background.webp)
+---
+
+## If you take one thing away from this presentation...
+
+- **PRs should always only contain changes that are related.**
+  - If you find something like a bug, documentation, or refactoring that is not related to the PR, create a new PR for it.
+  - This keeps the PRs small and easier to review for one, but it allows us to use git as a tool when a commit is bad.
+
+---
+
+<!-- color: #ffffff; -->
+
+# And remember, code reviews are a way to learn from each other and improve the codebase more than catching bugs.
+
+Even though catching bugs is a nice side effect.
+
+![bg blur brightness:0.5](./the-end.webp)
