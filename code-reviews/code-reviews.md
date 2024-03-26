@@ -16,7 +16,7 @@ _Code review is less about catching bugs and more about ensuring a collective ow
 4. [Tips for authors](#tips-for-authors)
 5. [Tips for reviewers](#tips-for-reviewers)
 6. [Discussion](#discussion)
-7. [Reflection and Next Steps](#reflection-and-next-steps)
+7. [Reflection](#reflection-and-next-steps)
 
 ---
 
@@ -107,7 +107,7 @@ How to write PRs that are easier to review
 
 - **Break down your changes into smaller, more digestible PRs.**
 - **Separation of concerns in PRs**
-  - Minor relates refactors and bugfixes can be in the same PR - but separate commits.
+  - Minor related refactors and bugfixes can be in the same PR - but separate commits.
   - Separate PRs for new features and bugfixes and refactorings that are not directly related.
 - **Don't be afraid to merge fragments of work - Feature toggle**
   - Long-lived branches can be a pain to merge and review - Avoid them.
@@ -189,7 +189,7 @@ The component is displayed at the bottom of the cart list.
 
 ### Tip 5 - For the large PRs that needs to be large
 
-- **Invite for a in person meeting**
+- **Invite for an in person meeting**
   - Have discussions about the changes before the PR is submitted.
   - In person code reviews can be beneficial for large complex changes.
 - **Remember to update the PR description with the feedback from the meeting.**
@@ -221,13 +221,13 @@ This can lead to a discussion instead of a one-way feedback.
 
 - **When giving feedback or suggesting changes, explain why and if possible provide resources.**
 
-_You may want to use exhaustmap instead of switchmap here for performance reasonse, see <link>._
+_You may want to use a different approach here, see <link>, this is a common performance issue._
 
 ---
 
 ### Tip 3 - Recap offline discussions
 
-- **When you have had offline discussions about the PR, make sure to recap them in the PR.**
+- **When you have had offline discussions about the PR, make sure to recap them shortly in the PR.**
 
 This is so we can use that for understanding the change in the future.
 
@@ -268,13 +268,28 @@ This is so we can use that for understanding the change in the future.
 
 ## Discussion
 
-- **How long would you expect from you make a PR to you have reviewers?**
+- **How long would you expect between submitting a pull request and having it reviewed?**
 
 ---
 
 ## Discussion
 
 - **Should we add the description template as a default on PRs?**
+
+---
+
+## Discussion
+
+- **Should we add the description template as a default on PRs?**
+  - _"Isn't this the guy that removed the template?"_
+
+---
+
+## Discussion
+
+- **Should we add the description template as a default on PRs?**
+  - _"Isn't this the guy that removed the template?"_
+    - Yes
 
 ---
 
@@ -299,7 +314,7 @@ This is so we can use that for understanding the change in the future.
 ## If you take one thing away from this presentation...
 
 - **PRs should always only contain changes that are related.**
-  - If you find something like a bug, documentation, or refactoring that is not related to the PR, create a new PR for it.
+  - If you address something like a bug, documentation, or refactoring that is not related to the PR, create a new PR for it.
   - This keeps the PRs small and easier to review for one, but it allows us to use git as a tool when a commit is bad.
 
 ---
