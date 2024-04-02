@@ -2,8 +2,6 @@
 
 <!--This Markdown document is used as a presentation i.e. all content is short and to the point.-->
 
-<!--some quote-->
-
 _Code review is less about catching bugs and more about ensuring a collective ownership and shared understanding of the codebase._ - Inspired by Linus Torvalds' perspective on open-source development.
 
 ---
