@@ -329,7 +329,7 @@ Even though catching bugs is a nice side effect.
 
 # Summary of discussion
 
-- Hard to split up pull requests. Acknowledge that it'll be easier to review, and we'll get better over time
+- Hard to split up pull requests. Understand that it'll be easier to review, and we'll get better over time
 - Worry, if you as a reviewer know enough about the feature to review it.
   - This can be handled by asking questions and learning from the author.
   - The mindset going into a PR for review should be to learn and have a discussion about the changes.
