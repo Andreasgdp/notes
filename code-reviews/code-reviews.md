@@ -324,3 +324,22 @@ This is so we can use that for understanding the change in the future.
 Even though catching bugs is a nice side effect.
 
 ![bg blur brightness:0.5](./the-end.webp)
+
+---
+
+# Summary of discussion
+
+- Hard to split up pull requests. Acknowledge that it'll be easier to review, and we'll get better over time
+- Worry, if you as a reviewer know enough about the feature to review it.
+  - This can be handled by asking questions and learning from the author.
+  - The mindset going into a PR for review should be to learn and have a discussion about the changes.
+  - Also if you find it hard writing a description, it is a good way to have an offline discussion about the changes, and then write the description based on that.
+- Due to the team size, we should not require multiple reviewers, but it is always good to have a second pair of eyes on the PR.
+- How to avoid PRs becomming a bottleneck.
+  - Ensure there are enough people able to review PRs.
+  - If the PR is business critical, or the author is blocked by the PR, the author should ask for a review.
+  - Everyone in the team should set aside some time in their day to review PRs. This will enable them to plan for flow work, as well as ensuring there is time for reviews.
+  - Be on the lookout for scenarios, where progress is being blocked by PRs not being reviewed and figure out how to avoid this in the future.
+- GENERALLY: If a PR is not reviewed within a certain time (discussed to within a day), the author should ask for a review.
+- If we encounter stuff related to the format of our code or linting, we should discuss, what we want, and se if it can be automatically enforced as part of the formatting/linting tools.
+  - This should of course be aligned with the other teams working in the same codebase (CoP).
